@@ -1,0 +1,14 @@
+spring:
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+        password: Pass2020!
+server:
+    servlet:
+        context-path: "/mlb9"
+    port: 8082
